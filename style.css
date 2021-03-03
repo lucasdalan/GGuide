@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-image: url('images/icnbg.png');
+    z-index: -2;
+}
+
+.pageone{
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.250);
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+}
+.pagetwo {
+    width: 100%;
+    height: 100vh;
+    top: 100vh;
+    position: absolute;
+    z-index: -1;
+    background-image: url('images/icnbg2.png');
+    opacity: 0.92;
+}
+
+.pagethree{
+    width: 100%;
+    height: 100vh;
+    top: 200vh;
+    position: absolute;
+    z-index: -1;
+    background-color: rgba(255, 255, 255, 0.250);
+}
+
+.pageone p{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 800;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.newbtn {
+    border: 2px solid black;
+    font-size: 18px;
+    background-color: rgb(214, 19, 58);
+    position: relative;
+    left: 40%;
+    height: 30px;
+    margin-top: 40px;
+
+}
+
+.navbar {
+   
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    vertical-align: center;
+    top: 0;
+    font-size: 18px;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(197,24,24);
+}
+
+.searchBar {
+    width: 80%;
+    border-radius: 4px;
+    border: 0px;
+    position: relative;
+    left: 10%;
+    top: 35px;
+}
+
+
+
+
+.searchBar::selection{
+    border: 0px;
+}
+
+@keyframes SlideNav {
+    from {
+        left:-100%;
+        opacity: 0;
+    }
+    to{
+        left:0;
+        opacity: 1;
+    }
+}
+.container {
+    position: relative;
+    height: 70vh;
+    top: 15vh;
+    width: 35vw;
+    left: 15%;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 3px #2c2c2c;
+    background-color: rgb(197, 24, 24);
+
+}
+
+.text {
+    color: rgb(0, 0, 0);
+    line-height: 150%;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+.navbar li {
+    font-family:'Poppins',sans-serif;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    display: inline;
+    margin:25px;
+    top:10px;
+    position: relative;
+    
+
+}
+.navbar a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 700;
+    
+}
+
+
+.logo a{
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+
+.navbar li a:hover{
+    font-weight: bold;
+    font-size: 20px;;
+    cursor: pointer;
+}
+
+
+.h1 {
+    color: rgb(197, 24, 24);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 24vh;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 10%;
+    top: 36%;    
+}
+
+.h2{
+    color: rgb(197, 24, 24);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 35vh;
+    font-size: 16px;
+    width: 30%;
+    margin-left: 10%;
+    top: 36%;    
+}
+
+.imagem {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    vertical-align: center;
+    top: 25vh;
+    height: 400px;
+    width: 600px;
+    left: 52%;
+    border-radius: 2px;
+
+}
+
+.kindshadow {
+    height: 400px;
+    width: 600px;
+    z-index: -1;
+    background-color: rgba(165, 40, 40, 0.74);
+    position: absolute;
+    left: 53%;
+    top: 24vh;
+}
+
+.callToAct{
+    border:2px solid white;
+    background-color: rgb(221, 58, 58);
+    top:45vh;
+    height: 50px;
+    font-size: 30px;
+    position: relative;
+    border-radius: 40px;
+    color: white;
+    margin-left: 10%;
+    top: 40%;
+    
+}
+
+
+
+
+
+
+@keyframes HoverCTA {
+    from {
+        color: white;
+        background: rgb(221, 58, 58);
+    }
+    to {
+        color: rgb(221, 58, 58);
+        background: white;
+        border: 2px solid rgb(221,58,58);
+        cursor: pointer;
+    }
+}
+
+@keyframes HoverCTA2 {
+    from {
+        color: rgb(221, 58, 58);
+        background: white;
+        border: 2px solid rgb(221,58,58);
+    }
+    to {
+        color: white;
+        background: rgb(221, 58, 58);
+    }
+}
+
+.containerp2{
+    height: 80%;
+    width: 40%;
+    background-color: white;
+    left: 15%;
+    top:10%;
+    position: relative;
+    border-radius: 10%;
+    box-shadow: 4px 2px 2px #000;
+    padding: 15px;
+    display: block;
+    cursor: default;
+
+}
+
+.p2h1{
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    width: 30%;
+    position: relative;
+    left: 65%;
+    top: 15%;
+    float: left;
+    color: white;
+    
+}
+
+.containerp2 p {
+    font-weight: 500;
+}
+
+.restName{
+    position: absolute;
+    top: 25px;
+    right: 56%;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bold;
+    color:rgb(170, 15, 15);
+    font-size: 30px;
+}
+
+.restDesc {
+    position: absolute;
+    top: 70px;
+    left: 44px;
+    width: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: rgb(46, 43, 43);
+}   
+
+.restFoto {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
+    top: 23px;
+    right: 30px;
+}
+
+.crossbar {
+    width: 90%;
+    left: 5%;
+    top: 150px;
+    height: 5px;
+    background-color: rgb(109, 7, 7);
+    position: absolute;
+    border-radius: 25%;
+}
+
+.restPrice {
+    position: absolute;
+    top: 180px;
+    left: 40px;
+    color: rgb(46, 43, 43);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+.restPrice2{
+    position: absolute;
+    top: 215px;
+    left: 40px;
+    color: rgb(46, 43, 43);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.restMusic{
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    color: rgb(46, 43, 43);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.moreInfo{
+    position: absolute;
+    top: 480px;
+    left: 40px;
+    color: rgb(197,24,24);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@keyframes pulin {
+    0%{
+        transform : translateY(0px);
+    }
+    50%{
+        transform: translateY(2px);
+    }
+    100%{
+        transform : translateY(0px);
+    }
+}
