@@ -57,9 +57,11 @@ btn.addEventListener('mouseover',()=> {
 
 function pageScrollT2(){
     window.scrollTo(0,600);
-    console.log('Alo');
 };
 
+function pageScrollT3(){
+    window.scrollTo(0,1300);
+};
 /*
 var container2 = document.querySelector('.containerp2');
 container2.addEventListener('mousemove',(e)=> {
@@ -87,3 +89,107 @@ containerp2.addEventListener('mouseover',()=> {
 containerp2.addEventListener('mouseleave',()=> {
     containerp2.style.animation = `none`;
 });
+
+
+var dalan = true;
+var xanxe = false;
+var miguel = false;
+var iago = false;
+
+
+
+function next() {
+    if (dalan == true){
+        var dalao = document.querySelector('.carddalao');
+        dalao.style.animation = `actualcard 1s ease forwards`;
+        var xanxes = document.querySelector('.cardxanxes');
+        xanxes.style.animation = `nextcard 1s ease forwards`;
+        dalan = false;
+        xanxe = true;
+        ab();
+        return 0;
+    }
+    
+    if (xanxe == true){
+        var xanxes = document.querySelector('.cardxanxes');
+        xanxes.style.animation = `actualcard 1s ease forwards`;
+        var mig = document.querySelector('.cardmig');
+        mig.style.animation = `nextcard 1s ease forwards`;
+        xanxe = false;
+        miguel = true;
+        ab();
+        return 0;
+
+    }
+    if (miguel == true) {
+        var mig = document.querySelector('.cardmig');
+        mig.style.animation = `actualcard 1s ease forwards`;
+        var iagod = document.querySelector('.cardiago');
+        iagod.style.animation = `nextcard 1s ease forwards`;
+        miguel = false;
+        iago = true;
+        ab();
+        return 0;
+    }
+    
+    
+}
+
+
+function ab(){
+    if (dalan != true){
+        var arrowb = document.querySelector('.arrowback');
+        arrowb.style.visibility = `visible`;
+    }
+    if (dalan == true){
+        var arrowb = document.querySelector('.arrowback');
+        arrowb.style.visibility = `hidden`;
+    }
+    if (iago == true){
+        var arrow = document.querySelector('.arrow');
+        arrow.style.visibility = `hidden`;
+    }
+    if (iago != true){
+        var arrow = document.querySelector('.arrow');
+        arrow.style.visibility = `visible`;
+    }
+}
+
+function anterior() {
+    if (xanxe == true){
+        var xanxes = document.querySelector('.cardxanxes');
+        xanxes.style.animation = `actual 1s ease forwards`;
+        var dalao = document.querySelector('.carddalao');
+        dalao.style.animation = `anterior 1s ease forwards`;
+        xanxe = false;
+        dalan = true;
+        ab();
+        return 0;
+
+    }
+    if (miguel == true) {
+        var mig = document.querySelector('.cardmig');
+        mig.style.animation = `actual 1s ease forwards`;
+        var xanxes = document.querySelector('.cardxanxes');
+        xanxes.style.animation = `anterior 1s ease forwards`;
+        miguel = false;
+        xanxe = true;
+        ab();
+        return 0;
+    }
+    if (iago == true) {
+        var iagod = document.querySelector('.cardiago');
+        iagod.style.animation = `actual 1s ease forwards`;
+        var mig = document.querySelector('.cardmig');
+        mig.style.animation = `anterior 1s ease forwards`;
+        miguel = true;
+        iago = false;
+        ab();
+        return 0;
+    }
+
+    
+    
+}
+
+ab();

@@ -15,7 +15,7 @@ body {
     position: absolute;
     top: 0;
     z-index: -1;
-    background-color: rgba(255, 255, 255, 0.250);
+    background-color: rgba(255, 255, 255, 0.103);
     justify-content: center;
     align-items: center;
     
@@ -362,4 +362,433 @@ body {
     100%{
         transform : translateY(0px);
     }
+}
+
+.foot {
+    height: 60px;
+    position: absolute;
+    top: 300vh;
+    width: 100%;
+    background-color: rgb(197,24,24);
+    text-align: center;
+}
+
+.foottext{
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+
+
+.carddalao{
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left:30%;
+    background-color: rgba(197, 24, 24, 0.897);
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 2px #000;
+    display: block;
+}
+
+.cardfotod {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.cardtextd {
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    position: relative;
+    color: white;
+}
+
+.carddescd {
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    margin: 10px;
+}
+
+.cardiconfbd{
+    text-decoration: none;
+    position: relative;
+    top: 85%;
+
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.cardiconfbd a {
+    text-decoration: none;
+    position: relative;
+    top: 85%;
+
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.cardnamed {
+    text-decoration: none;
+    position: relative;
+    top: 88%;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cardnamed a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.cardxanxes{
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left:30%;
+    background-color: rgba(197, 24, 24, 0.897);
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 2px #000;
+    visibility: hidden;
+}
+
+.cardfotox {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.cardtextx {
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    position: relative;
+    color: white;
+}
+
+.carddescx {
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    margin: 10px;
+}
+
+.cardiconfbx{
+    text-decoration: none;
+    position: relative;
+    top: 85%;
+
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.cardiconfbx a {
+    text-decoration: none;
+    position: relative;
+    top: 85%;
+
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.cardnamex {
+    text-decoration: none;
+    position: relative;
+    top: 88%;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cardnamex a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+.arrow {
+    text-decoration: none;
+    position: absolute;
+    left: 85%;
+    width: 100px;
+    height: 100px;
+    top: 40%;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.cardmig{
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left:30%;
+    background-color: rgba(197, 24, 24, 0.897);
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 2px #000;
+    visibility: hidden;
+}
+
+.cardfotom {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.cardtextm {
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    position: relative;
+    color: white;
+}
+
+.carddescm {
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    margin: 10px;
+}
+
+.cardiconfbm{
+    text-decoration: none;
+    position: relative;
+    top: 85%;
+
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.cardiconfbm a {
+    text-decoration: none;
+    position: relative;
+    top: 85%;
+
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.cardnamem {
+    text-decoration: none;
+    position: relative;
+    top: 88%;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cardnamem a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.cardiago{
+    height: 80%;
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left:30%;
+    background-color: rgba(197, 24, 24, 0.897);
+    border-radius: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px 2px 2px #000;
+    visibility: hidden;
+}
+
+.cardfotoi {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.cardtexti {
+    font-family: 'Poppins',sans-serif;
+    font-size: 40px;
+    position: relative;
+    color: white;
+}
+
+.carddesci {
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    position: relative;
+    color: white;
+    margin: 10px;
+}
+
+.cardiconfbi{
+    text-decoration: none;
+    position: relative;
+    top: 85%;
+
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.cardiconfbi a {
+    text-decoration: none;
+    position: relative;
+    top: 85%;
+
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.cardnamei {
+    text-decoration: none;
+    position: relative;
+    top: 88%;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cardnamei a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.arrowback {
+    transform: scaleX(-1);
+    position: absolute;
+    left: 5%;
+    width: 100px;
+    height: 100px;
+    top: 40%;
+    visibility:visible;
+}
+
+.arrowback:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes nextcard {
+    from{
+        left: 130%;
+        visibility: hidden;
+    }
+    to {
+        left: 30%;
+        visibility: visible;
+    }
+}
+
+@keyframes actualcard {
+    from{
+        left: 30%;
+        visibility: visible;
+    }
+    to {
+        left : -90%;
+        visibility: hidden;
+    }
+}
+
+@keyframes anterior {
+    from {
+        left : -90%;
+        visibility: hidden;
+    }
+    to {
+        left: 30%;
+        visibility: visible;
+    }
+}
+
+@keyframes actual {
+    from{
+        left: 30%;
+        visibility: visible;
+    }
+    to {
+        left : 130%;
+        visibility: hidden;
+    }
+}
 }
